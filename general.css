@@ -1,0 +1,205 @@
+.index_body {
+  background-image: url("/index_img/wallpaper_10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 712px;
+}
+
+.header_index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  padding-bottom: 30px;
+  max-width: 1100px;
+}
+
+.logo_name {
+  margin-left: 50px;
+  color: white;
+  font-size: 24px;
+  font-family: tilt neon;
+  font-weight: bold;
+}
+
+.header_index_right {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.header_text {
+  text-decoration: none;
+  color: white;
+  font-family: tilt neon;
+  margin-right: 60px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.explore {
+  background-color: white;
+  color: black;
+  border: none;
+  font-family: tilt neon;
+  padding: 6px 22px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-left: 70px;
+  font-size: 17px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.explore:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.explore:active {
+  opacity: 0.5;
+}
+
+.serial_explore {
+  margin-top: 40px;
+  color: white;
+  font-family: roboto condensed;
+  font-size: 20px;
+}
+
+.place_explore {
+  color: white;
+  font-family: roboto condensed;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.explore_img {
+  height: 140px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.index_nav {
+  margin-top: 0px;
+  backdrop-filter: blur(40px);
+  padding: 30px 15px;
+  max-width: 250px;
+  margin-right: 0px;
+  position: absolute;
+  right: 140px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.explore_about {
+  color: white;
+  font-family: roboto;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.explore_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explore_info_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.serial_explore_1 {
+  color: white;
+  font-family: roboto condensed;
+  font-size: 20px;
+}
+
+.serial_explore_2 {
+  color: white;
+  font-family: roboto condensed;
+  font-size: 10px;
+}
+
+.main_heading_text_2 {
+  font-family: Satisfy;
+  color: white;
+  font-size: 90px;
+}
+
+.main_heading_text_1 {
+  font-family: arial;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.main_heading {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.learn_more {
+  margin-top: 40px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-family: tilt neon;
+  padding: 6px 22px;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 17px;
+  margin-bottom: 100px;
+}
+
+.learn_more:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.learn_more:active {
+  opacity: 0.5;
+}
+
+.main_content {
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  padding-right: 0px;
+  font-family: roboto;
+  margin-top: 10px;
+  display: flex;
+  max-width: 550px;
+}
+
+.main_content_heading {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.main_content_line {
+  border-top: white 2px solid;
+}
+
+.vid{
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.header_text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header_text:active {
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 0.7;
+}

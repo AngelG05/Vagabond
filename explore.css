@@ -1,0 +1,15 @@
+.destination_down {
+  position: absolute;
+  bottom: 0px;
+  background-color: white;
+  padding: 20px;
+  z-index: 0;
+}
+
+.index_nav {
+  z-index: 1;
+}
+
+.destination_2 {
+  padding-right: 80px;
+}
